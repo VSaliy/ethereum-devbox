@@ -35,6 +35,16 @@ npm install -g generator-jhipster@5.4.2
 npm install -g jhipster-uml@2.0.3
 
 ################################################################################
+# Install Ethereum development environment
+################################################################################
+
+# install Ganache
+npm install -g ganache-cli
+
+# install Truffle
+npm install -g truffle
+
+################################################################################
 # Install the graphical environment
 ################################################################################
 
