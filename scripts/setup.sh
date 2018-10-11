@@ -29,10 +29,10 @@ su -c "yarn config set prefix /home/vagrant/.yarn-global" vagrant
 npm install -g yo
 
 # install JHipster
-npm install -g generator-jhipster@5.4.2
+#npm install -g generator-jhipster@5.4.2
 
 # install JHipster UML
-npm install -g jhipster-uml@2.0.3
+#npm install -g jhipster-uml@2.0.3
 
 ################################################################################
 # Install Ethereum development environment
@@ -69,9 +69,8 @@ apt-get install -y xubuntu-desktop virtualbox-guest-dkms virtualbox-guest-utils 
 apt-get remove -y light-locker --purge
 
 # change the default wallpaper
-#wget https://jhipster.github.io/images/wallpaper-004-2560x1440.png -O /usr/share/xfce4/backdrops/jhipster-wallpaper.png
-wget https://raw.githubusercontent.com/jhipster/jhipster-devbox/master/images/jhipster-wallpaper.png -O /usr/share/xfce4/backdrops/jhipster-wallpaper.png
-sed -i -e 's/xubuntu-wallpaper.png/jhipster-wallpaper.png/' /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+wget https://raw.githubusercontent.com/VSaliy/ethereum-devbox/master/images/ethereum-wallpaper.png -O /usr/share/xfce4/backdrops/ethereum-wallpaper.png
+sed -i -e 's/xubuntu-wallpaper.png/ethereum-wallpaper.png/' /etc/xdg/xdg-xubuntu/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
 
 ################################################################################
 # Install the development tools
@@ -96,9 +95,9 @@ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 apt-get install -y guake
 cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
 
-# install jhipster-devbox
-git clone git://github.com/jhipster/jhipster-devbox.git /home/vagrant/jhipster-devbox
-chmod +x /home/vagrant/jhipster-devbox/tools/*.sh
+# install ethereum-devbox
+git clone git://github.com/VSaliy/ethereum-devbox.git /home/vagrant/ethereum-devbox
+chmod +x /home/vagrant/ethereum-devbox/tools/*.sh
 
 # install zsh
 apt-get install -y zsh
