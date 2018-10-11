@@ -30,11 +30,7 @@ This "development box" also have all client applications useful for working:
 - Truffle
 - EthereumJS-TestRPC
 
-## <a name="setup"></a> Installation
-
-The "Quick installation" provides a pre-build Virtual Machine, and the "Manual installation" let you build your Virtual Machine yourself. We recommend you use the "Quick installation" if you don't know which option to choose.
-
-### Manual installation
+## Manual installation
 
 This generates a new "development box" directly from this repository.
 
