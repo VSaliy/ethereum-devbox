@@ -1,4 +1,4 @@
-# JHipster official "development box"
+# Ethereum "development box"
 
 ## Introduction
 
