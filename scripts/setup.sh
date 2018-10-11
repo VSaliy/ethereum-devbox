@@ -44,6 +44,8 @@ npm install -g ganache-cli
 # install Truffle
 npm install -g truffle
 
+npm install -g ethereumjs-testrpc
+
 npm install -g webpack
 npm install -g webpack-cli
 
