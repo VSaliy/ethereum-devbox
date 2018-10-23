@@ -66,3 +66,5 @@ Start up the new box:
 - Other available tools
   - [Guake](http://guake-project.org/) is installed, hit "F12" to have your terminal
   - The [Visual Studio Code](https://code.visualstudio.com/) code editor is installed
+---  
+- based on [jhipster-devbox](https://github.com/jhipster/jhipster-devbox)
