@@ -40,7 +40,10 @@ npm install -g yo
 
 # install Ganache
 npm install -g ganache-cli
-
+#wget https://github-production-release-asset-2e65be.s3.amazonaws.com/79269625/e34e4500-a706-11e8-95cc-c3a914d6b80c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181011%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181011T164450Z&X-Amz-Expires=300&X-Amz-Signature=dba7e041e09eab176e97c9b085b58db256f03e0087329ee653d9e55e1d8d23e8&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dganache-1.2.2-x86_64.AppImage&response-content-type=application%2Foctet-stream
+wget https://github.com/trufflesuite/ganache/releases/download/v1.2.2/ganache-1.2.2-x86_64.AppImage
+chmod a+x ganache-1.2.2-x86_64.AppImage
+./ganache-1.2.2-x86_64.AppImage
 # install Truffle
 npm install -g truffle
 
