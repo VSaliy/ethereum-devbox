@@ -17,5 +17,22 @@ if [ -L "/usr/bin/postman" ];then
 fi
 sudo ln -s /opt/Postman/Postman /usr/bin/postman
 
+cat << EOF >> Postman.desktop
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=postman
+Name=Postman
+Comment=Postman
+Icon=/opt/Postman/resources/app/assets/icon.png
+Categories=Development;
+EOF
+
+chmod +x Postman.desktop
+sudo cp Postman.desktop /usr/share/applications
+cp Postman.desktop ~/.local/share/applications/
+
 echo "Installation completed successfully."
 echo "You can use Postman!"
